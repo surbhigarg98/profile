@@ -1,0 +1,85 @@
+
+	.container{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row-reverse;
+		width: 100%;
+		background-color: #D8D8D8;
+		
+
+
+	}
+	.container-items{
+		height: 200px;
+
+		
+	}
+	.myfonts{
+		font-size: 2rem;
+		color: white;
+
+		text-align: center;
+	}
+	.blue{
+		background-color:blue;
+	}
+	.green{
+		background-color: green;
+	}
+	.yellow{
+		background-color 
+		: yellow;
+	}
+	.red{
+		background-color: red;
+	}
+
+
+
+
+
+	/*media queries start here*/
+	@media only screen and (min-width: 768px){
+		.blue{
+			width:50%;
+		}
+		.red{
+			width: 50%;
+		}
+		.green{
+			width: 50%;
+		}
+		.yellow{
+			width: 50%;
+		}
+
+	}
+	@media only screen and (min-width: 480px) and (max-width: 768px){
+		.blue{
+			width:50%;
+		}
+		.red{
+			width: 50%;
+		}
+		.green{
+			width: 100%;
+		}
+		.yellow{
+			width: 100%;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.blue{
+			width: 100%;
+		}
+		.red{
+			width: 100%;
+		}
+		.green{
+			width: 100%;
+		}
+		.yellow{
+			width: 100%;
+		}
+	}
+
